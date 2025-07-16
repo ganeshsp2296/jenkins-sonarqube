@@ -4,8 +4,8 @@ public class App {
     }
 
     // To trigger SonarQube duplication
-    public static void duplicatedMain() {
-        System.out.println("Hello from Jenkins + SonarQube!");
-    }
+    //public static void duplicatedMain() {
+      //  System.out.println("Hello from Jenkins + SonarQube!");
+    //}
 }
 
