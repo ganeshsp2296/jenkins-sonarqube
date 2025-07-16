@@ -5,10 +5,6 @@ pipeline {
         string(name: 'BRANCH_NAME', defaultValue: 'main', description: 'Git branch to build')
     }
 
-    tools {
-        sonarQubeScanner 'SonarScanner'
-    }
-
     stages {
         stage('Checkout') {
             steps {
@@ -25,3 +21,4 @@ pipeline {
         }
     }
 }
+
